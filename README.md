@@ -3,10 +3,11 @@ Script for testing the speed of Raspberry Pi SD Card and or USB
 
 So I am really new to this and unsure how to add this to auto install from a command line or add to a repository for people to download through.
 
-Anyways grab the file 
-drivetest.sh and put it in your ./home/pi/RetroPie/retropiemenu
-drivetest.png and put it in your ./home/pi/RetroPie/retropiemenu/icons
-
+Anyways grab the files
+```
+drivetest.sh - put it in your ./home/pi/RetroPie/retropiemenu
+drivetest.png - put it in your ./home/pi/RetroPie/retropiemenu/icons
+```
 then add the following to your ./opt/retropie/configs/all/emulationstation/gamelists/retropie/gamelist.xml
 ```
 <game>
